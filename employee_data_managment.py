@@ -53,15 +53,9 @@ def Show_all():#function for seeing all the data in file
             print("No data found!\n")
             
 def Remove_all():#function for removing all the data from the file
-    with open("employee.txt",'r') as f5:
-        data = f5.readlines()
-    try:
-        with open("employee.txt",'w') as f6:
-            new_data = [f5.readlines()]
-            new_ = new_data.clear()
-            updated_data = f6.writelines(new_)
-    except Exception as e:
-        print("All removed!!\n")
+    updated_data = []
+    with open("employee.txt",'w') as f5:
+        data = f5.writelines(updated_data)
              
 while True:#from here is all the code exicute
     print("1.Add Employee\n2.Search Employee\n3.Remove employee\n4.Show all\n5.Remove all\n6.Exit")
