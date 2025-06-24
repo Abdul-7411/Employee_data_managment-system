@@ -1,4 +1,4 @@
-# Employee_data_managment-system
+# Employee data managment system
 This project helps to manage employee data.
 The features are:
 It takes employee id 
