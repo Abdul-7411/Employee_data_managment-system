@@ -6,3 +6,6 @@ It takes employee name
 It takes employee email 
 It takes employee profession 
 It takes employee level (fresher, mid level, senior level) 
+
+It is an intermediate python project.
+based on "File Handling"
